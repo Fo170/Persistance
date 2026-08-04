@@ -29,7 +29,7 @@ Sketch → Include Library → Manage Libraries → rechercher « Persistance »
 ## Exemple rapide
 
 ```cpp
-#include <Persistance.h>
+#include <persistance.h>
 
 PersistanceEEPROM persistance(512);
 

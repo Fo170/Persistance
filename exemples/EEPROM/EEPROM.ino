@@ -1,7 +1,7 @@
 // Exemple : persistance EEPROM avec PersistanceEEPROM
 // Écrit un float (registre "coulomb") + un bloc config, puis relit au boot.
 
-#include <Persistance.h>
+#include <persistance.h>
 
 PersistanceEEPROM persistance(512);
 

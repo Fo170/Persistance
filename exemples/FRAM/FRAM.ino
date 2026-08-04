@@ -1,7 +1,7 @@
 // Exemple : persistance FRAM I2C (FM24CL16B, adresse 0x50) avec PersistanceFRAM.
 // Écrit un compteur de boot qui survit au reset, plus un float.
 
-#include <Persistance.h>
+#include <persistance.h>
 
 PersistanceFRAM persistance;
 

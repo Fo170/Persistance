@@ -1,7 +1,7 @@
 // Exemple : persistance LittleFS (fichier /persist.dat) avec PersistanceLittleFS.
 // Écrit un float + une chaîne, relit au boot.
 
-#include <Persistance.h>
+#include <persistance.h>
 
 PersistanceLittleFS persistance("/persist.dat", 2048);
 
