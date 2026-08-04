@@ -1,0 +1,58 @@
+{
+  "name": "Persistance",
+  "version": "1.0.0",
+  "description": "Gestionnaire de sauvegardes pour EEPROM, FRAM (Fo170/FRAM_I2C_FM24CL16B) et LittleFS. Enregistrements validés (magic + version + CRC16 interne), table de registres nommés, écriture double tampon anti-panne. API unifiée save/load typés (byte, uint16, uint32, float, block, string).",
+  "keywords": [
+    "persistance",
+    "persistence",
+    "eeprom",
+    "fram",
+    "littlefs",
+    "storage",
+    "save",
+    "load",
+    "backup",
+    "crc16",
+    "double-buffer",
+    "esp8266",
+    "esp32"
+  ],
+  "authors": [
+    {
+      "name": "Olivier FOURNET",
+      "email": "olivier.fournet@free.fr",
+      "url": "https://github.com/Fo170",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fo170/Persistance.git"
+  },
+  "license": "GPL-3.0",
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif8266",
+    "espressif32",
+    "atmelsam",
+    "teensy",
+    "ststm32",
+    "atmelavr",
+    "raspberrypi"
+  ],
+  "dependencies": {
+    "Fo170/FRAM_I2C_FM24CL16B": "^1.0.0"
+  },
+  "headers": [
+    "persistance.h",
+    "persistance_types.h",
+    "persistance_EEPROM.h",
+    "persistance_FRAM.h",
+    "persistance_LittleFS.h"
+  ],
+  "examples": [
+    "exemples/EEPROM/*.ino",
+    "exemples/FRAM/*.ino",
+    "exemples/LittleFS/*.ino"
+  ]
+}
