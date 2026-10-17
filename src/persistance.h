@@ -24,7 +24,7 @@
 #define PERSISTANCE_H
 
 // Version de la librairie (source UNIQUE — agrégée par liste_lib.h)
-#define __PERSISTANCE_H_VERSION__ "1.0.0"
+#define __PERSISTANCE_H_VERSION__ "1.0.1"
 
 #include "persistance_types.h"
 #include "persistance_EEPROM.h"

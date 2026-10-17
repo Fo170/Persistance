@@ -1,6 +1,6 @@
 {
   "name": "Persistance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gestionnaire de sauvegardes pour EEPROM, FRAM (Fo170/FRAM_I2C_FM24CL16B) et LittleFS. Enregistrements validés (magic + version + CRC16 interne), table de registres nommés, écriture double tampon anti-panne. API unifiée save/load typés (byte, uint16, uint32, float, block, string).",
   "keywords": [
     "persistance",
