@@ -29,7 +29,7 @@
     "type": "git",
     "url": "https://github.com/Fo170/Persistance.git"
   },
-  "license": "GPL-3.0",
+  "license": "GPL-3.0-only",
   "frameworks": "arduino",
   "platforms": [
     "espressif8266",
